@@ -1,0 +1,132 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-navigation-bar {
+    width: 200px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 20px;
+}
+
+.center-area {
+    width: 100%;
+    padding: 20px;
+}
+
+.posts-area {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header h3 {
+    margin: 0;
+}
+
+.post-body {
+    white-space: pre-wrap;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-action-btn {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.banner {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #3b5998;
+    color: white;
+}
+
+.banner-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-login {
+    background-color: white;
+    color: #3b5998;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.post-box {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-box-input {
+    background-color: #3b589869;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-box-edit {
+    background-color: #3b987969;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-action-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.postsText-container {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    min-height: 80px;
+}
+
+.post-action-btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-action {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

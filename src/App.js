@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Banner from "./Banner";
+import Navbar from "./Navbar";
+import Posts from "./Posts";
+import './style-fb.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="container">
+      <div className="left-navigation-bar">
+        Left Navigation Bar
+        <Navbar />
+      </div>
+      <div className="center-area">
+        <Banner />
+        <div className="posts-area">
+          <div className="post">
+          </div>
+          <div className="post-body">
+            <Posts />
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
