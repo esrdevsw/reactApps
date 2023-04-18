@@ -1,3 +1,5 @@
+Web App developed in React for posts with a front-end design inspired by Facebook
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
